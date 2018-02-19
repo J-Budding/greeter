@@ -1,4 +1,11 @@
 sudo: false
 language: java
 jdk:
-  - oraclejdk8
+- oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: tOeyiOJu901njSpgreCZG+o4c56LVvzFT8Rr9UNZPZ10/6Q+gW1HO2KuqRljmqxrpjeSSIximLbMyW3P6AbZvK3uto3gkqmYlSCGQzcs/56NJzmfOKgk9n3obDidpbplgdm9tDIAnWRe2hLjUclJ7Y5j/ZupoJU52fnFNtH1chkB1JtahLVQlW51p9Nbd3VXzNdeUimfQM9ner+AB8pjzfJ4tvwSj6nznxTm7cCKp47ddlqP5ogoMiglmZz8GHEvbHR3HbNMoQBMirGL0rc89wB0watsv7e8M2Z8nDXIEDcwkwU/3aaOv7SdTwQJhO7S+KkRtoOdvkQ0DabmDXs4o0OAhoxdRs7nDDueR39pwXveytfaE0bb3eaHR33KNwNtsKeVsH+r2R8DDy0eOUEdiGPZ1jU5kJ5GxpP+mgsSiab2jzH9q/SOf4/R7Qme2fSbsRZzJmBmT5AeFl0VyLprtEszOmVUtwaWKUPnFEGz7AR+TsMEgxfJZEtcAIBwwrk3plFom5B3E+GFRpTxBRHjyyR/o20TZcMawBAJXNCilwalNeYRs/nDwvJDXhdSql9SZVxgVzNFXwTaGnSH0+syVs7Zgm/9MZ83Tl7JRv4NIGOBhUJJfnmUHU3cux7JUwQv4jmJxypThN2pA/Rrpld1J/WM4taMlcOkhn6sW8gp578=
+  app: greeter
+  on:
+    repo: J-Budding/greeter
