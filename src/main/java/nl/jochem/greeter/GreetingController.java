@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class GreetingController {
-    
-    private String name = "Jochem";
+
+    private String name = "JochemZ";
 
     @RequestMapping("/")
     public String index() {
