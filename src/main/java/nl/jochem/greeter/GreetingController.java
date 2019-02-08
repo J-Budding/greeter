@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class GreetingController {
 
-    private String name = "JochemZQA";
+    private String name = "JochemZZZ";
 
     @RequestMapping("/")
     public String index() {
